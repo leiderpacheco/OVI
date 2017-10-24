@@ -5,22 +5,22 @@ Copyright 2004-2007 eXe Project, New Zealand Tertiary Education Commission
 base style sheet for all themes
 */
 
-body{margin:0;padding:0 10px 10px 10px;font-family:arial,verdana,helvetica,sans-serif;font-size:.8em}
-#header{text-align:left;height:50px;padding-left:20px;font-size:2.2em;font-weight:bold}
+body{margin:0;padding:0 10px 10px 10px;font-family: 'Comic Sans MS, Comic Sans', cursive; font-size:.10em}
+#header{text-align:center;height:50px;padding-left:20px;font-size:2.2em;font-weight:bold}
 a{text-decoration:none}
 a:hover,a:focus{text-decoration:underline}
 img.submit,img.help,img.info,img.gallery{border:0}
 li{list-style-position:inside}
 #nodeDecoration{padding:0.1em;border-bottom:0em;text-align:right}
 .block,.feedback{display:block;padding-top:0.25em;padding-bottom:0.25em}
-.feedback{font-family:times,serif;font-size:120%}
+.feedback{font-family: Comic Sans MS, Comic Sans, cursive; font-size:120%}
 .feedback-button p{margin:0}
 /* iDevice */
 .emphasis0{padding-left:0;margin:0}
 .iDeviceTitle{font-weight:bold;position:relative;top:-18px;/* aligns title up with middle of icon */}
 input.feedbackbutton{margin-top:10px;margin-bottom:10px}
 /* 'tips for completion' and 'pedagogical help' */
-.popupDiv{background-color:#EDEFF0;border:2px solid #607489;padding:0 4px 4px 4px;margin-left:15px;text-align:left;z-index:99;border-radius:3px}
+.popupDiv{background-color:#B0ACAC;border:2px solid #607489;padding:0 4px 4px 4px;margin-left:15px;text-align:left;z-index:99;border-radius:3px}
 .popupDivLabel{text-align:center;font:message-box;font-weight:bold;color:#fff;cursor:move;margin:0 -4px;background-image:url(popup_bg.gif)}
 @media print{
     .feedback{display:block!important}

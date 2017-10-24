@@ -1,6 +1,6 @@
 /* eXeLearning Style Designer Compatible Style */
 html{font-size:105%}
-body{font:100%/1.5 'Open Sans',Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left}
+body{font:100%/1.5 'Comic Sans MS, Comic Sans', cursive;;padding:15px;margin:0;text-align:left}
 
 h2{font-size:1.3em}
 h3{font-size:1.2em}
@@ -14,7 +14,7 @@ p{margin:1em 0}
 #header h1,#nodeDecoration h1{margin:-.5em 0 1em 0;font-size:1em;text-align:left}
 #nodeDecoration{margin-bottom:15px} /* Single page */
 
-.nodeDecoration h1{font-size:1.5em}
+.nodeDecoration h1{font-size:1.8em}
 
 /* iDevices */
 .iDevice{margin:20px 0 30px 0}
@@ -117,7 +117,7 @@ background:#ededed;
 /* eXeLearning Style Designer */
 .iDevice_header{
 /*emTitleColor*/
-color:#ff7f00;
+color:#000;
 /*emTitleBGColor*/
 background-color:#ffffff;border-color:#dddddd;
 }
@@ -187,7 +187,7 @@ color:#2495ff;
 #header,#emptyHeader,#nodeDecoration{
 height:auto!important;
 /*headerHeight*/
-height:400px;min-height:400px;
+height:600px;min-height:400px;
 /*headerBGColor*/
 background-color:#ffffff;
 /*headerBGURL*/
@@ -196,25 +196,25 @@ background-image:url(ECBTI-1.png);
 background-repeat:no-repeat;
 /*headerBGPosition*/
 background-position:0 0;border:1px solid /*headerBorderColor*/
-#005fbf;
+#000;
 }
 #headerContent{
 /*headerTitleTopMargin*/
 padding-top:200px;
 /*headerTitleColor*/
-color:#ff7f00;
+color:#000;
 /*headerTitleTextShadowColor*/
-text-shadow:1px 1px 1px #191919;
+text-shadow:1px 1px 1px #fff;
 /*headerTitleAlign*/
 text-align:right;
 }
 #siteFooter{
 border:1px solid /*footerBorderColor*/
-#005fbf;
+#000;
 /*footerColor*/
 color:#ffffff;
 /*footerBGColor*/
-background-color:#005fbf;
+background-color:#000;
 }
 #siteFooter a{
 /*footerAColor*/

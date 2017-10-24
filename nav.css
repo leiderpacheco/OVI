@@ -10,7 +10,7 @@ body{padding:0;text-align:center}
 #header,#emptyHeader{border-top-width:0;border-right-width:0;border-left-width:0}
 #headerContent{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;min-height:1.1em}
 #nodeDecoration{background:none;padding:0;border:none;margin:20px 0;height:auto;min-height:0}
-#nodeTitle{font-weight:300}
+#nodeTitle{font-weight:800; text-align: center;}
 .iDevice_wrapper{margin-top:-10px}
 
 /* MenÃº */
@@ -145,7 +145,7 @@ background-color:#ffffff;
 }
 #siteNav,#siteNav a{
 /*navBGColor*/
-background-color:#005fbf;
+background-color:#000;
 /*navAColor*/
 color:#ffffff;
 /*navBorderColor*/
@@ -153,10 +153,10 @@ border-color:#ffffff;
 }
 @media screen and (min-width: 701px) and (max-width: 1015px){
 #siteNav,#siteNav ul{
-background-color:#005fbf;border-color:#ffffff;
+background-color:#000;border-color:#ffffff;
 }
 #siteNav li{
-background-color:#005fbf;
+background-color:#000;
 }
 }
 @media all and (max-width: 700px){
@@ -169,10 +169,10 @@ border-top:1px solid #ffffff;
 color:#ffffff;
 }
 .pagination{
-border-color:#005fbf;
+border-color:#000;
 }
 #bottomPagination{
-background-color:#005fbf;
+background-color:#000;
 }
 /*horizontalNavigation*/
 @media screen and (min-width:701px){
@@ -189,7 +189,7 @@ background:#FFFFFF
 display:block
 }
 #siteNav,#siteNav ul{
-float:left;width:100%;border-style:solid;border-width:1px 0;border-color:#ffffff;margin:0;line-height:1.2em;background:#005fbf
+float:left;width:100%;border-style:solid;border-width:1px 0;border-color:#ffffff;margin:0;line-height:1.2em;background:#000
 }
 #siteNav ul ul{
 line-height:1.1em
